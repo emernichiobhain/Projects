@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+*{
+  font-family:'Amatic SC';
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(37, 36, 37), rgb(121, 121, 122));
+  background-repeat: no-repeat;
+  margin: 2em;
+}
+
+#task, .ipt-btn, .clr-btn {
+  font-size: 2em;
+  background-color:rgb(121, 121, 122);
+  border: 2px solid rgb(218, 218, 219);
+  box-shadow: 2px 2px 10px #000000;
+}
+
+li {
+  list-style-type: none;
+  font-size: 2em;
+  background-color:rgb(121, 121, 122);
+  border: 2px solid rgb(218, 218, 219);
+  border-radius: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left: 1%;
+  box-shadow: 2px 2px 10px #000000;
+}
+
+ .dn-btn, .rmv-btn {
+  font-size: 1em;
+  margin-right: 5px;
+  margin-left: 10px;
+  background-color:rgb(121, 121, 122);
+  border: 2px solid rgb(218, 218, 219);
+  box-shadow: 2px 2px 10px #000000;
+}
+
+#todo-list {
+  padding: 0;
+}

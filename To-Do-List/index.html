@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="style/todo.css">
+  <script src="js/todo.js" async></script>
+</head>
+<body>
+    <h1>My To-Do List</h1> 
+    <form id="todo-form">
+      <input type="text" name="task" id="task">
+      <input type="submit" value="Add Task" class="ipt-btn">
+    </form> 
+    <ul id="todo-list"></ul>
+    <div>
+      <input onclick="clearTasks()" type="submit" value="Clear All Tasks" class="clr-btn">
+    </div>
+</body>
+</html>
